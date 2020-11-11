@@ -7,6 +7,7 @@ public class Main {
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setTitle("Snake Game");
+        window.setLocation(500, 200);
         
         var game = new GameBoard(window); 
         game.init();
